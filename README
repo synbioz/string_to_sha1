@@ -1,0 +1,6 @@
+This is an example project going along with [this blog post](http://www.synbioz.com/blog/) to demonstate how to build a Gem.
+
+It only adds a sha1 method on String class.
+
+To install development dependencies use :
+    bundle install
