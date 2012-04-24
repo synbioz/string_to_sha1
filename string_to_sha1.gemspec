@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.version     = StringToSha1::VERSION
   s.authors     = ["Nicolas Cavigneaux"]
   s.email       = ["nico@bounga.org"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.homepage    = "http://github.com/synbioz/string_to_sha1"
+  s.summary     = %q{Add SHA1 hashing from string}
+  s.description = %q{This gem add a facility method to easily convert existing string to SHA1 hash.}
 
   s.rubyforge_project = "string_to_sha1"
 
@@ -17,8 +17,4 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
-
-  # specify any dependencies here; for example:
-  # s.add_development_dependency "rspec"
-  # s.add_runtime_dependency "rest-client"
 end
